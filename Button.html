@@ -1,0 +1,72 @@
+<button onclick="myFunction()">Click Me to show text!</button>
+
+<div id="myDIV" style="display: none">
+  This text hides and shows when clicking button
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<button onclick="otherFunction()">Click Me to show more text!</button>
+
+<div id="otherDIV" style="display: none">
+  This text hides and shows but there is another button, and there will be different text when clicking that button
+</div>
+
+<script>
+function otherFunction() {
+  var x = document.getElementById("otherDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<button onclick="goodFunction()">Click Me to show text only more text!</button>
+
+<div id="goodDIV" style="display: none">
+  I love you
+</div>
+
+<script>
+function goodFunction() {
+  var x = document.getElementById("goodDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page with Color with Button</title>
+<style>
+  body {
+    background-color: lightblue;
+  }
+  h1 {
+    color: navy;
+  }
+  p {
+    background-color: yellow;
+  }
+</style>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <p>This is a paragraph with a yellow background.</p>
+</body>
+</html>
+<p style="color: blue;">This text will be blue.</p>
+<p style="color: burlywood;">This text will be burlywood.</p>
+<p style="color: darkgreen;">This text will be darkgreen</p>
